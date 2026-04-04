@@ -20,6 +20,7 @@ body {
 
 .hero {
     padding: 100px;
+    
 }
 
 .here__title {
@@ -33,4 +34,33 @@ body {
 
 #hero__highlight {
     color: black;
+}
+
+
+.feature {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding: 100px;
+}
+
+.feature__item {
+    padding: 30px 0;
+}
+
+.feature__title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.feature__title--selected {
+    text-decoration: underline;
+}
+
+.feature__description {
+    text-align: right;
+    /* letter-spacing: 0.5rem; */
+    /* word-spacing: 3rem; */
+    /* line-height: 2.4rem; */
 }
